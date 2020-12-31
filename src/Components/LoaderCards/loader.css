@@ -1,0 +1,9 @@
+.ui.three.cards > .card {
+  width: calc(33.33333333% - 6em) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.stackable.cards > .card {
+    margin: 1.5rem auto !important;
+  }
+}
